@@ -79,15 +79,16 @@
         };
     };
 
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-  &kp Q       &kp W       &kp E        &kp R        &kp T      &kp Y      &kp U        &kp I        &kp O       &kp P
-  &hm LGUI A  &hm LALT S  &hm LSHFT D  &hm LCTRL F  &kp G      &kp H      &hm RCTRL J  &hm RSHFT K  &hm RALT L  &hm RGUI SEMI
-  &kp Z       &kp X       &kp C        &kp V        &kp B      &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                          &kp LGUI     &trans       &kp RET    &kp SPACE  &kp BSPC     &trans
+  &kp Q       &kp W       &kp E             &kp R        &kp T      &kp Y      &kp U        &kp I                &kp O       &kp P
+  &hm LGUI A  &hm LALT S  &hm LSHFT D       &hm LCTRL F  &kp G      &kp H      &hm RCTRL J  &hm RSHFT K          &hm RALT L  &hm RGUI SEMI
+  &kp Z       &kp X       &kp C             &kp V        &kp B      &kp N      &kp M        &kp COMMA            &kp DOT     &kp FSLH
+                          &lt 1 APOSTROPHE  &to 1        &kp RET    &kp SPACE  &kp BSPC     &lt 2 DOUBLE_QUOTES
             >;
 
             label = "DEF";
