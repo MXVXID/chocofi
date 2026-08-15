@@ -73,7 +73,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
+        };
+
+        escape {
+            bindings = <&kp ESC>;
+            key-positions = <7 8>;
         };
     };
 
@@ -122,9 +127,9 @@
 
         raise_layer {
             bindings = <
-&kp EXCL        &kp AT          &kp HASH  &kp DLLR           &kp PRCNT          &kp AMPS             &kp STAR         &kp LPAR         &kp RPAR  &kp BSLH  &hm_l LGUI N1  &hm_l LALT N2
-&hm_l LSHFT N3  &hm_l LCTRL N4  &kp N5    &kp MINUS          &hm_r RCTRL EQUAL  &hm_r RSHFT GRAVE    &hm_r RALT LBKT  &hm_r RGUI RBKT  &kp N6    &kp N7    &kp N8         &kp N9
-&kp N0          &kp UNDER       &kp PLUS  &kp DOUBLE_QUOTES  &kp LBRC           &kp RBRC             &trans           &trans           &trans    &trans    &trans         &trans
+&kp EXCL        &kp AT          &kp HASH  &kp DLLR          &kp PRCNT          &kp AMPS             &kp STAR         &kp LPAR         &kp RPAR  &kp BSLH  &hm_l LGUI N1  &hm_l LALT N2
+&hm_l LSHFT N3  &hm_l LCTRL N4  &kp N5    &kp MINUS         &hm_r RCTRL EQUAL  &hm_r RSHFT GRAVE    &hm_r RALT LBKT  &hm_r RGUI RBKT  &kp N6    &kp N7    &kp N8         &kp N9
+&kp N0          &kp UNDER       &kp PLUS  &kp SINGLE_QUOTE  &kp LBRC           &kp RBRC             &trans           &trans           &trans    &trans    &trans         &trans
             >;
 
             label = "raise";
